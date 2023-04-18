@@ -1,5 +1,5 @@
 {% set name = "napari-philow" %}
-{% set version = "0.0.1" %}
+{% set version = "0.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-PHILOW-{{ version }}.tar.gz
-  sha256: a0b2ac9639e7e311106b41e9795229d3b8804661b6a89c46a35d93cf37bb09ca
+  sha256: 025509342dcbc40a7824ea72fa7c9f915621aa61a0c94d3f85bc61ba743a1e67
 
 build:
   noarch: python
