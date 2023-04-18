@@ -1,11 +1,11 @@
-About napari-philow
-===================
+About napari-philow-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-philow-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/neurobiology-ut/PHILOW
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-philow-feedstock/blob/main/LICENSE.txt)
 
 Summary: PHILOW is an interactive deep learning-based platform for 3D datasets
 
