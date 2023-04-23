@@ -29,6 +29,7 @@ requirements:
     - scikit-image
     - pytorch
     - torchvision
+    - segmentation-models-pytorch
 
 test:
   imports:
