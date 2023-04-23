@@ -22,14 +22,13 @@ requirements:
     - dask-image
     - matplotlib-base
     - napari
-    - napari-plugin-engine >=0.1.4
-    - napari-tools-menu
     - numpy
     - opencv
     - pandas
     - python >=3.7
     - scikit-image
-    - tensorflow
+    - pytorch
+    - torchvision
 
 test:
   imports:
