@@ -23,6 +23,7 @@ requirements:
     - dask-image
     - matplotlib-base
     - napari
+    - pyqt
     - numpy
     - opencv
     - pandas
@@ -31,6 +32,10 @@ requirements:
     - pytorch
     - torchvision
     - segmentation-models-pytorch
+
+  run_constrained:
+    - pyside2 >=5.14.2,!=5.15.0
+    - pyqt >=5.12.3,!=5.15.0
 
 test:
   imports:
