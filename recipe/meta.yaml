@@ -1,13 +1,13 @@
 {% set name = "napari-philow" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-PHILOW-{{ version }}.tar.gz
-  sha256: fb31d480f21cf289496720d20d4b0c9aff878b7a47c9eeb1e7fa11d38680d02a
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 73c9870e2fa7cb85ad3d2c8f658033ec57f149a4057e8fa67764d1bebac9b74c
 
 build:
   noarch: python
